@@ -1,0 +1,240 @@
+
+footer{
+	background-color: #cc8e32;
+	height: 7vh;}
+
+header {
+	background-color: #5c065c;
+	height: 7vh;}
+
+main{
+	height: 85vh;
+	/*background-image: url("../images/img.jpg");
+	background-repeat: no-repeat;
+	background-position-x: center;*/}
+
+body{
+	margin: 0;}
+
+#leftAside{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+ 	justify-content: center;
+    width: 50vw;
+    height: 43vh;}
+
+#rightAside{
+	display: flex;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;}
+    
+.logInput{
+	    border-radius: 15px;
+	    text-align: center;
+	    outline: none;
+	    background-color: #555555;
+	    font-weight: bold;}
+	    
+label{
+	font-weight: bold;}
+    
+#nickLabel, span{
+	color: #cc8e32;}    
+	
+#pswLabel, h1{
+	color: #5c065c;}
+    
+h1{
+	margin: 0;
+    text-align: center;
+    height: 7vh;
+    margin-top: 1vh;
+    text-shadow: 0.5rem 0.5rem 1rem;}
+    
+#nickInput{
+	border-color:#5c065c;
+	color: #5c065c;}
+
+
+#pswInput{
+	border-color: #cc8e32;
+	color: #cc8e32;}
+    
+#submit{
+	clear: both;
+    border: none;
+    display: block;
+    margin: auto;
+    background: -webkit-linear-gradient(#5c065c, #cc8e32);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-size: 2rem;
+    /*height: 2rem;
+    width: 2rem;
+    margin-left: 44vw;
+    background-image: url("../images/img2.png");
+    background-size: cover;
+    background-color: orange;*/}
+    
+#tuttiIParametriNull, #ISBNNull, #prestitoNull, #parametriNull, .errori, #successoPrenotazione, #redirect, #nonAdmin, #libroAggiunto{
+	background: linear-gradient(45deg, #cc8e32 40%, #5c065c 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;}
+    
+    
+#cercaLibroForm, #aggiungiLibroForm{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;}
+    
+.cercaLibroInput, .prenotaLibroInput, .inserimentoLibroInput{
+	margin-bottom: 1vh;
+	border-radius: 50px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+    color: #cc8e32;}
+    
+.cercaLibroLabel, .prenotalibroLabel, .inserimentoLibroLabel{
+	background: linear-gradient(45deg, #cc8e32 30%, #5c065c 72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;}
+    
+table{
+    table-layout: fixed;
+    width: 100vw;}
+    
+.thPari{
+    border-bottom: solid 0.05vh #5c065c;
+    color: #cc8e32;} 
+    
+.thDispari{
+    border-bottom: solid 0.05vh #cc8e32;
+    color: #5c065c;}
+    
+td{
+	text-align: center;}
+    
+.tdPari{
+	color: #5c065c;}
+    
+.tdDispari{
+	color: #cc8e32;}    
+    
+td a{
+	text-decoration: none;
+	color: inherit;}
+    
+#informazioniLibroCercato{
+	margin-top: 15vh;}    
+    
+#backButton, #addButton{
+	text-decoration: none;
+    float: left;
+    height: 2rem;
+    text-align: center;
+    width: 2rem;
+    position: fixed;
+    font-size: 2rem;
+    color: #cc8e32;
+    margin-left: 2rem;
+    background-color: #5c065c;
+    border-radius: 50px;
+    font-weight: bold;}    
+    
+#addButton{
+	right: 0vw;
+	margin-left: 0 !important;
+	position: absolute !important;
+	margin-right: 2rem;}    
+    
+#dettagliLibroSubmit{
+	border: none;
+    color: #cc8e32;
+    font-weight: bold;
+    background: none;}    
+    
+.riepilogoDati{
+	margin-bottom: 0.5rem;
+    margin-top: 0;
+    background: linear-gradient(45deg, #cc8e32 15%, #5c065c 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;}
+    
+#contenitoreRiepilogo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;}    
+    
+#leftDiv{
+	width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;}
+
+#rigthDiv{
+	width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;
+    float: right;}
+
+.prenotaLibroInput{
+	width: 10rem !important;}
+
+#riepilogo{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-start;
+    margin-right: 2rem;}
+
+.riepilogo{
+	margin: 0;
+	margin-bottom: 0.5rem;
+    background: linear-gradient(45deg, #cc8e32 15%, #5c065c 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;}
+    
+#selezioneCopie{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;}
+
+.inserisciCarrello{
+	margin-top: 0.5rem !important;}
+
+
+
+
+
+
+
+
+
+
+
+    
